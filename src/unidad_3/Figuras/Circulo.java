@@ -5,6 +5,8 @@
  */
 package unidad_3.Figuras;
 
+import static java.lang.Math.PI;
+
 /**
  *
  * @author 52614
@@ -20,7 +22,15 @@ public class Circulo extends Figura {
         return (2*radio*3.1416);
     }
     public double cal_Area(){
-        return (radio*radio*3.1416);
+        return (radio*radio*PI);
+    }
+
+    public double getRadio() {
+        return radio;
+    }
+
+    public void setRadio(double radio) {
+        this.radio = radio;
     }
     
 }
